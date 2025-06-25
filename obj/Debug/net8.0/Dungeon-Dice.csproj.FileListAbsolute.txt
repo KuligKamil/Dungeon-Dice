@@ -1,0 +1,15 @@
+/Users/kamilkulig/Projects/Dungeon-Dice/bin/Debug/net8.0/Dungeon-Dice
+/Users/kamilkulig/Projects/Dungeon-Dice/bin/Debug/net8.0/Dungeon-Dice.deps.json
+/Users/kamilkulig/Projects/Dungeon-Dice/bin/Debug/net8.0/Dungeon-Dice.runtimeconfig.json
+/Users/kamilkulig/Projects/Dungeon-Dice/bin/Debug/net8.0/Dungeon-Dice.dll
+/Users/kamilkulig/Projects/Dungeon-Dice/bin/Debug/net8.0/Dungeon-Dice.pdb
+/Users/kamilkulig/Projects/Dungeon-Dice/obj/Debug/net8.0/Dungeon-Dice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kamilkulig/Projects/Dungeon-Dice/obj/Debug/net8.0/Dungeon-Dice.AssemblyInfoInputs.cache
+/Users/kamilkulig/Projects/Dungeon-Dice/obj/Debug/net8.0/Dungeon-Dice.AssemblyInfo.cs
+/Users/kamilkulig/Projects/Dungeon-Dice/obj/Debug/net8.0/Dungeon-Dice.csproj.CoreCompileInputs.cache
+/Users/kamilkulig/Projects/Dungeon-Dice/obj/Debug/net8.0/Dungeon-Dice.sourcelink.json
+/Users/kamilkulig/Projects/Dungeon-Dice/obj/Debug/net8.0/Dungeon-Dice.dll
+/Users/kamilkulig/Projects/Dungeon-Dice/obj/Debug/net8.0/refint/Dungeon-Dice.dll
+/Users/kamilkulig/Projects/Dungeon-Dice/obj/Debug/net8.0/Dungeon-Dice.pdb
+/Users/kamilkulig/Projects/Dungeon-Dice/obj/Debug/net8.0/Dungeon-Dice.genruntimeconfig.cache
+/Users/kamilkulig/Projects/Dungeon-Dice/obj/Debug/net8.0/ref/Dungeon-Dice.dll
