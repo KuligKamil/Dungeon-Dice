@@ -7,7 +7,9 @@
 <!-- curl --location 'http://localhost:11434/api/generate' \
 --data '{
   "model": "llama2:latest",
-  "prompt": "Why is the sky blue?"
+  "prompt": "Why is the sky blue?",
+  "stream": false
 }' -->
 
 <!-- curl http://localhost:11434/api/tags -->
+

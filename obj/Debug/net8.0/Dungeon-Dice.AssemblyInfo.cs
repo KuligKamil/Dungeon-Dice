@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dungeon-Dice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a1c726b828f7d370d0523297a1c032445f520da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03779a05e4b89cc13a99696b6971b9fd48335829")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dungeon-Dice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dungeon-Dice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,7 +13,33 @@
 // for (int i = 0; i < 10; i++)
 // {
 //   Console.WriteLine($"Hello World {i + 1}");
+// // }
+// public class Post
+// {
+//   public int UserId { get; set; }
+//   public int Id { get; set; }
+//   public string Title { get; set; } = string.Empty;
+//   public string Body { get; set; } = string.Empty;
 // }
+
+// publ
+using System.Text.Json;
+using System.Text;
+HttpClient httpClient = new HttpClient();
+httpClient.BaseAddress = new Uri("http://localhost:11434/api/generate");
+var post = new
+{
+  model = "llama2:latest",
+  prompt = "Why is the sky blue?",
+  stream = false
+};
+var json = JsonSerializer.Serialize(post);
+var content = new StringContent(json, Encoding.UTF8, "application/json");
+var response = await httpClient.PostAsync("", content);
+response.EnsureSuccessStatusCode();
+json = await response.Content.ReadAsStringAsync();
+Console.WriteLine(json);
+
 
 String text = "Hello World";
 var text2 = "Hello World 2";
@@ -77,6 +103,51 @@ foreach (var name in names)
 
 // Console.WriteLine($"Random number between 1 and 100: {dice6.Roll()}");
 
+// TODO: Did C# have hoisting? 
 
+var word = new Word
+(
+"public",
+"scope word",
+ "C#"
+
+);
+
+Console.WriteLine(word.Text);
+class Word(string text, string description, string language)
+{
+  public string Text { get; set; } = text;
+  public string Description { get; set; } = description;
+  public string Language { get; set; } = language;
+  public List<string> Tags { get; set; } = [];
+  public DateTime Created { get; } = DateTime.Now;
+  private DateTime _updatedAt = DateTime.Now;
+}
+
+// what is the deafult value visibility/scope in class whichout public/private/protected/internal?
+class GuineaPig(string name)
+{
+  public string Name { get; } = name;
+  public static string Sound() => "squeak";
+}
+
+// public abstract class Word 
+// ovverride 
+// ToString() => $"{Text} ({Language}) - {Description}";
+// Implement ToString to classes
+// magic class Object in C#
 
 // http://127.0.0.1:11434/
+
+//  curl --location 'http://localhost:11434/api/generate' \
+// --data '{
+//   "model": "llama2:latest",
+//   "prompt": "Why is the sky blue?",
+//   "stream": false
+// }' 
+
+// var response = await httpClient.PostAsync("posts", content);
+// response.EnsureSuccessStatusCode();
+
+// var responseJson = await response.Content.ReadAsStringAsync();
+// return JsonSerializer.Deserialize<Post>(responseJson);
